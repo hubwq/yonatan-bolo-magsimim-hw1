@@ -21,7 +21,11 @@
     <ClCompile Include="main2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Stack.cpp">
+=======
+    <ClCompile Include="..\..\..\..\Downloads\2-20241112T184042Z-001\2\Part2Tester.cpp">
+>>>>>>> 74b327bde64ecfeaa9b9df5a30f7df720ef9ab27
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,8 +33,11 @@
     <ClInclude Include="LinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="Stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+=======
+>>>>>>> 74b327bde64ecfeaa9b9df5a30f7df720ef9ab27
   </ItemGroup>
 </Project>

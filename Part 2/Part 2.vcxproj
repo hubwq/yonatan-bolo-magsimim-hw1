@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="main2.cpp" />
     <ClCompile Include="Stack.cpp" />
@@ -134,6 +135,14 @@
   <ItemGroup>
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Stack.h" />
+=======
+    <ClCompile Include="..\..\..\..\Downloads\2-20241112T184042Z-001\2\Part2Tester.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="main2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h" />
+>>>>>>> 74b327bde64ecfeaa9b9df5a30f7df720ef9ab27
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

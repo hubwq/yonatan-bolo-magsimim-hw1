@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 #include "LinkedList.h"
 #include "Stack.h"
 #include <iostream>
 
 ////check LinkedList
+=======
+//#include "LinkedList.h"
+//#include <iostream>
+//
+>>>>>>> 74b327bde64ecfeaa9b9df5a30f7df720ef9ab27
 //int main()
 //{
 //	Node* head = new Node;
@@ -28,6 +34,7 @@
 //	removeNode(&head);
 //
 //	return 0;
+<<<<<<< HEAD
 //}
 
 int main()
@@ -53,3 +60,6 @@ int main()
 
 	return 0;
 }
+=======
+//}
+>>>>>>> 74b327bde64ecfeaa9b9df5a30f7df720ef9ab27
