@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{acc70152-c869-41fc-bd0b-778971975deb}</ProjectGuid>
-    <RootNamespace>Part2</RootNamespace>
+    <ProjectGuid>{3709278e-39f1-4142-bef7-5af67adc631d}</ProjectGuid>
+    <RootNamespace>Queue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,22 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="main2.cpp" />
-    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Part1Tester.cpp" />
+    <ClCompile Include="Queue.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LinkedList.h" />
-    <ClInclude Include="Stack.h" />
-=======
-    <ClCompile Include="..\..\..\..\Downloads\2-20241112T184042Z-001\2\Part2Tester.cpp" />
-    <ClCompile Include="LinkedList.cpp" />
-    <ClCompile Include="main2.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkedList.h" />
->>>>>>> 74b327bde64ecfeaa9b9df5a30f7df720ef9ab27
+    <ClInclude Include="Queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

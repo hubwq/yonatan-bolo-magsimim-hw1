@@ -15,29 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList.cpp">
+    <ClCompile Include="Queue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="Stack.cpp">
-=======
-    <ClCompile Include="..\..\..\..\Downloads\2-20241112T184042Z-001\2\Part2Tester.cpp">
->>>>>>> 74b327bde64ecfeaa9b9df5a30f7df720ef9ab27
+    <ClCompile Include="Part1Tester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LinkedList.h">
+    <ClInclude Include="Queue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-<<<<<<< HEAD
-    <ClInclude Include="Stack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-=======
->>>>>>> 74b327bde64ecfeaa9b9df5a30f7df720ef9ab27
   </ItemGroup>
 </Project>

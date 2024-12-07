@@ -6,8 +6,7 @@
 /* a positive-integer value stack, with no size limit */
 typedef struct Stack
 {
-	unsigned int num;
-	Stack* next;
+	LinkedList* list;
 } Stack;
 
 void push(Stack* s, unsigned int element);
@@ -17,7 +16,6 @@ void initStack(Stack* s);
 void cleanStack(Stack* s);
 
 bool isEmpty(Stack* s);
-
-void printStack(Stack* s);
+bool isFull(Stack* s);
 
 #endif // STACK_H

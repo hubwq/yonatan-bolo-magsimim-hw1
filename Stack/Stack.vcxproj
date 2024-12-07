@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d42afd6a-ba13-4d23-b3a1-63742f42130e}</ProjectGuid>
-    <RootNamespace>HW1</RootNamespace>
+    <ProjectGuid>{2409b917-a8a2-40ea-92bc-8bc1d239d2bc}</ProjectGuid>
+    <RootNamespace>Stack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -44,7 +44,6 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
-    <EnableASAN>false</EnableASAN>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -128,12 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\1-20241112T183935Z-001\1\Part1Tester.cpp" />
-    <ClCompile Include="main1.cpp" />
-    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="Part2Tester.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Queue.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
